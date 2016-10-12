@@ -1,0 +1,56 @@
+@mixin transition($args...) {
+  transition: $args;
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin set-bg-for-active-and-hover ($base-color) {
+  background-color: $base-color;
+
+  &:hover {
+    background-color: $base-color;
+  }
+
+  &:active,
+  &:focus,
+  &:active:focus {
+    background-color: darken($base-color, 10%);
+    outline: none !important;
+    color: $white;
+  }
+}
+
+@mixin set-border-and-color ($base-color, $border-style) {
+  border: $border-style 3px;
+  border-color: $base-color;
+  color: $base-color;
+
+  &:hover {
+    background: transparent;
+    color: $base-color;
+    border-color: $base-color;
+  }
+
+  &:active,
+  &:focus,
+  &:active:focus {
+    background: transparent;
+    border-color: darken($base-color, 10%);
+    outline: none !important;
+    color: darken($base-color, 10%);
+  }
+}
+
+@mixin set-tab-colors ($base-color) {
+  border-color: rgba($base-color, 0.3);
+
+  &::after {
+    background-color: $base-color;
+  }
+}

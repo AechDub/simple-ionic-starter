@@ -1,0 +1,294 @@
+// basic
+%clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+%retract-padding {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+a {
+  @extend .text-success;
+  text-decoration: none;
+}
+
+// title default overrides
+body h1 {
+  font-size: $font-size-h1;
+}
+
+body h2 {
+  font-size: $font-size-h2;
+}
+
+body h3 {
+  font-size: $font-size-h3;
+}
+
+body h4 {
+  font-size: $font-size-h4;
+}
+
+body h5 {
+  font-size: $font-size-h5;
+}
+
+// text
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-green, 
+.text-success {
+  color: $brand-primary;
+}
+
+.text-green-dark {
+  color: $green-dark;
+}
+
+.text-danger,
+.text-red {
+  color: $brand-danger;
+}
+
+.text-purple {
+  color: $purple;
+}
+
+.text-gray {
+  color: $gray;
+}
+
+.text-gray-dark {
+  color: $gray-dark;
+}
+
+.text-gray-darker {
+  color: $gray-darker;
+}
+
+.text-gray-darkest {
+  color: $gray-darkest;
+}
+
+.text-gray-base {
+  color: $gray-base;
+}
+
+.text-gray-light {
+  color: $gray-light;
+}
+
+.text-gray-lighter {
+  color: $gray-lighter;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-spaced {
+  letter-spacing: 0.5px;
+}
+
+.text-skinny {
+  font-weight: 400;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-bolder {
+  font-weight: 700;
+}
+
+.text-small {
+  font-size: $font-size-small;
+}
+
+.text-base {
+  font-size: $font-size-base;
+}
+
+.text-large {
+  font-size: $font-size-large;
+}
+
+.text-larger {
+  font-size: $font-size-larger;
+}
+
+.text-x-large {
+  font-size: $font-size-x-large;
+}
+
+.text-xx-large {
+  font-size: $font-size-xx-large;
+}
+
+.text-h1 {
+  font-size: $font-size-h1;
+}
+
+.text-h2 {
+  font-size: $font-size-h2;
+}
+
+.text-h3 {
+  font-size: $font-size-h3;
+}
+
+.text-h4 {
+  font-size: $font-size-h4;
+}
+
+.text-h5 {
+  font-size: $font-size-h5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  &.title {
+    @extend .text-gray-darker;
+    @extend .text-center;
+    @extend .text-capitalize;
+    @extend .text-bold;
+  }
+}
+
+.subtitle {
+  @extend .text-gray;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.subtext {
+  @extend .text-gray, .text-small;
+}
+
+// colors & backgrounds
+.bg-white {
+  background-color: $white;
+}
+
+.bg-gray {
+  background-color: $gray;
+}
+
+.bg-gray-dark {
+  background-color: $gray-dark;
+}
+
+.bg-gray-darker {
+  background-color: $gray-darker;
+}
+
+.bg-gray-base {
+  background-color: $gray-base;
+}
+
+.bg-gray-light {
+  background-color: $gray-light;
+}
+
+.bg-gray-lighter {
+  background-color: $gray-lighter;
+}
+
+.bg-gray-lightest {
+  background-color: $gray-lightest;
+}
+
+.bg-brand-primary {
+  background-color: $brand-primary;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
+.bg-teal {
+  background-color: $teal;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-magenta {
+  background-color: $magenta;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-red {
+  background-color: $brand-danger;
+}
+
+.bg-red-light {
+  background-color: $brand-warning;
+}
+
+.content-container {
+  padding: 15px;
+}
+
+%box-shadow {
+  box-shadow: 0 2px 2px $shadow-base;
+}
+
+.box-shadow2 {
+  box-shadow: 2px 2px 2px $gray-lighter;
+}
+
+.relative {
+  position: relative;
+}
+
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 3px;
+  box-sizing: border-box; 
+}
+

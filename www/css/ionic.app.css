@@ -1,0 +1,235 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+a {
+  text-decoration: none; }
+
+body h1 {
+  font-size: 35px; }
+
+body h2 {
+  font-size: 29px; }
+
+body h3 {
+  font-size: 23px; }
+
+body h4 {
+  font-size: 17px; }
+
+body h5 {
+  font-size: 13.5px; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-capitalize, h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title {
+  text-transform: capitalize; }
+
+.text-center, h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-green,
+.text-success,
+a {
+  color: #00a657; }
+
+.text-green-dark {
+  color: #00833e; }
+
+.text-danger,
+.text-red {
+  color: #e73316; }
+
+.text-purple {
+  color: #af3cf1; }
+
+.text-gray, .subtitle, .subtext {
+  color: #8e8e93; }
+
+.text-gray-dark {
+  color: #747474; }
+
+.text-gray-darker, h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title {
+  color: #323437; }
+
+.text-gray-darkest {
+  color: #242427; }
+
+.text-gray-base {
+  color: #1a1a1a; }
+
+.text-gray-light {
+  color: #bcbcbc; }
+
+.text-gray-lighter {
+  color: #dcdcdc; }
+
+.text-white {
+  color: #fff; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-capitalize, h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title {
+  text-transform: capitalize; }
+
+.text-italic {
+  font-style: italic; }
+
+.text-spaced {
+  letter-spacing: 0.5px; }
+
+.text-skinny {
+  font-weight: 400; }
+
+.text-bold, h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title {
+  font-weight: 600; }
+
+.text-bolder {
+  font-weight: 700; }
+
+.text-small, .subtext {
+  font-size: 12px; }
+
+.text-base {
+  font-size: 13.5px; }
+
+.text-large {
+  font-size: 15px; }
+
+.text-larger {
+  font-size: 17px; }
+
+.text-x-large {
+  font-size: 21px; }
+
+.text-xx-large {
+  font-size: 32px; }
+
+.text-h1 {
+  font-size: 35px; }
+
+.text-h2 {
+  font-size: 29px; }
+
+.text-h3 {
+  font-size: 23px; }
+
+.text-h4 {
+  font-size: 17px; }
+
+.text-h5 {
+  font-size: 13.5px; }
+
+.subtitle {
+  font-size: 16px;
+  text-transform: capitalize; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-gray {
+  background-color: #8e8e93; }
+
+.bg-gray-dark {
+  background-color: #747474; }
+
+.bg-gray-darker {
+  background-color: #323437; }
+
+.bg-gray-base {
+  background-color: #1a1a1a; }
+
+.bg-gray-light {
+  background-color: #bcbcbc; }
+
+.bg-gray-lighter {
+  background-color: #dcdcdc; }
+
+.bg-gray-lightest {
+  background-color: #ececec; }
+
+.bg-brand-primary {
+  background-color: #00a657; }
+
+.bg-yellow {
+  background-color: #e0d416; }
+
+.bg-purple {
+  background-color: #af3cf1; }
+
+.bg-teal {
+  background-color: #35b592; }
+
+.bg-blue {
+  background-color: #00b2dd; }
+
+.bg-magenta {
+  background-color: #ec008c; }
+
+.bg-orange {
+  background-color: #f58220; }
+
+.bg-red {
+  background-color: #e73316; }
+
+.bg-red-light {
+  background-color: #f46767; }
+
+.content-container {
+  padding: 15px; }
+
+.box-shadow2 {
+  box-shadow: 2px 2px 2px #dcdcdc; }
+
+.relative {
+  position: relative; }
+
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  padding: 3px;
+  box-sizing: border-box; }
+
+/* No files to import found in molecules//**/
+/* */
+/* No files to import found in quarks//**/
+/* */
+/* No files to import found in organisms//**/
+/* */

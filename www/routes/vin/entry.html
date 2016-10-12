@@ -1,0 +1,22 @@
+
+<ion-view>
+  <ion-content>
+    <section>
+      <div class="row">
+        <div class="col">
+          <h1>Enter your VIN</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col flex-center">
+          <input type="text" ng-model="vinEntryCtrl.form.vin"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col flex-center">
+          <button ng-click="vinEntryCtrl.saveVehicle()" class="btn btn-primary btn-wide">Save</button>
+        </div>
+      </div>
+    </section>
+  </ion-content>
+</ion-view>
