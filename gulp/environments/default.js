@@ -2,7 +2,9 @@ var paths = require('../config/paths')
 
 module.exports = {
   constants: {
-    assetsDir: '/assets'
+    assetsDir: '/assets',
+    // your default build api url
+    apiUrl: 'https://localhost:1337/api/v1/'
   },
 
   run: {
