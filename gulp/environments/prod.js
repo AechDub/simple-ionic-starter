@@ -1,5 +1,6 @@
 module.exports = {
   constants: {
-    apiUrl: 'http://motor-match-api.herokuapp.com/api/v1/'
+    // your live production api url
+    apiUrl: 'http://myapi.production.com/v1/'
   }
 }

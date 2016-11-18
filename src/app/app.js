@@ -17,16 +17,6 @@ function run ($ionicPlatform) {
 
 function config ($stateProvider, $urlRouterProvider, $ionicConfigProvider, $ionicNativeTransitionsProvider) {
   $stateProvider
-    .state('vin-entry', {
-      url: '/vin/entry',
-      templateUrl: 'routes/vin/entry.html',
-      controller: 'VinEntryCtrl as vinEntryCtrl'
-    })
-    .state('list-vehicles', {
-      url: '/list/vehicles',
-      templateUrl: 'routes/list/vehicles.html',
-      controller: 'VehiclesCtrl as vehiclesCtrl'
-    })
     .state('welcome', {
       url: '/welcome',
       templateUrl: 'routes/welcome/welcome.html'
